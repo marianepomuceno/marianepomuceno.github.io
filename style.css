@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #58595B;  
+}
+header {
+    background-image: url(CRIANÇAS.jpg);
+    background-size: 1300px;
+    padding: 50px;
+    text-align: left;
+    color: #363636;
+    border: seashell;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+header > a > img {
+position: relative;   
+left: 850;
+bottom: 130;
+}
+
+section {
+    background-color: #F2CC39;
+    color:#58595B;
+    margin: 30px;
+    padding: 15px;
+    border-top-left-radius: 20px;
+}
+
+footer {
+    background-color: #506AD4;
+    padding: 15px;
+    text-align: center;
+    color: #FFFCE6;
+}
