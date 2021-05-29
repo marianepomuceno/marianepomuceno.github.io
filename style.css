@@ -3,6 +3,24 @@ body {
     font-family: 'Oswald', sans-serif;
     color: #58595B;  
 }
+nav {
+    background-color: #506AD4;
+    text-align: center;
+}
+nav > ul {
+    padding: 10px;
+    margin: 0mm;
+}
+nav > ul > li {
+    display: inline;
+    padding: 70px;
+    font-weight: bold;
+}
+li > a {
+    text-decoration: none;
+    color: #FFFCE6;
+    font-size: 22px;
+}
 header {
     background-image: url(CRIANÇAS.jpg);
     background-size: 1300px;
@@ -13,12 +31,6 @@ header {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; 
 }
-header > a > img {
-position: relative;   
-left: 850;
-bottom: 130;
-}
-
 section {
     background-color: #F2CC39;
     color:#58595B;
