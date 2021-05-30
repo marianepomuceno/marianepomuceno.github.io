@@ -1,0 +1,38 @@
+main {
+    padding: 50px;
+    background-color: #E0E6EF;
+}
+
+form {
+    background-color: #F2CC39;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 15px;
+    padding: 20px;
+}
+fieldset {
+    border: 0;
+}
+
+fieldset > label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+fieldset > input {
+    height: 20px;
+
+}
+
+fieldset > textarea {
+    height: 100px;
+    
+}
+
+form > input {
+    width: 60%;
+}
+
+.input-form {
+    width: 100%;
+}
